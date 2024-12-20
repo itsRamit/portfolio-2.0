@@ -4,7 +4,9 @@
 
 @layer base{
     body{
-        @apply bg-background
+        @apply bg-background text-white max-w-full
     }
-    
+    .nav-items{
+        @apply px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold hover:bg-white hover:text-gray-900 hover:transition duration-300
+    }
 }
